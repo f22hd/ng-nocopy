@@ -6,7 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'nocopy';
   text:string = 'A text to be copied';
 
   onCopyAttemp(){

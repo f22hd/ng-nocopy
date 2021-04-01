@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'nocopy';
+  text:string = 'A text to be copied';
+
+  onCopyAttemp(){
+    console.error('no copy please')
+  }
 }

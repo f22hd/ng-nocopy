@@ -1,6 +1,6 @@
 {
   "name": "ng-nocopy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Fahad Allibdi",
     "email": "fa88hd@gmail.com",
@@ -13,5 +13,9 @@
   },
   "dependencies": {
     "tslib": "^2.0.0"
+  },
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/f22hd/ng-nocopy"
   }
 }

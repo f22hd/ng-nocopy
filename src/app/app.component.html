@@ -1,1 +1,45 @@
-<p noCopy (copyAttempted)='onCopyAttemp()'>{{text}}</p>
+<main class="w-100 bg-gray-100 h-screen">
+  <div class="container mx-auto md:p-5 p-2">
+      <div class="md:w-50 mt-5 mx-auto md:p-5 p-2 bg-white rounded">
+        <h4 class="text-xl mb-2">ng-nocopy</h4>
+        <p class="mb-3">An angular directive that prevent a user from copying a specific element content.
+          <a href="https://github.com/f22hd/ng-nocopy" target="_blank">Repo</a>
+        </p>
+        <hr>
+        <section class="my-5">
+          <label class="text-sm text-gray-500">with directive</label>
+          <p class='text-lg' noCopy (copyAttempted)='onCopyAttemp()'>
+            A text to be copied
+          </p>
+        </section>
+
+       <section class="my-5">
+          <label class="text-sm text-gray-500">without directive</label>
+          <p class='text-lg'>The text you can copy.</p>
+       </section>
+
+        <section class="flex flex-col">
+          <textarea class="rounded mt-5 p-2 w-100 border" placeholder="paste what you have copied"
+            name="pastecontent" id="" rows="5"></textarea>
+        </section>
+
+
+         <section class="my-5">
+          <footer class="mt-5">
+            <ul class="flex justify-center">
+              <li class="mx-3">
+                <a class="text-gray-600" href="https://github.com/f22hd/ng-nocopy" target="_blank">Github</a>
+              </li>
+               <li class="mx-3">
+                 <a class="text-gray-600" href="http://allebdi.me/" target="_blank">Blog</a>
+               </li>
+              <li class="mx-3">
+                <a class="text-gray-600"  href="https://twitter.com/Fallebdi" target="_blank">Twitter</a>
+              </li>
+
+            </ul>
+          </footer>
+         </section>
+      </div>
+  </div>
+</main>

@@ -21,3 +21,9 @@ in your component , you can add the directive on your html element to prevent it
 <p noCopy (copyAttempted)='onCopyAttemp()'>your content</p>
 ```
 This directive has copy Attempted event that fires when the user trying to copy the element content. so you can show him an error message :).
+
+
+#### Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update the tests as appropriate.
